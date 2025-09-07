@@ -14,7 +14,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -31,25 +31,38 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/SF_BCCA.jpg" alt="Picture of Shedrick Flowers">
+                <img src="images/Gavin.jpg" alt="Picture of Shedrick Flowers">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
                 <p>
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                    A little known fact about me is that I'm really his daddy.
                 </p>
 
                 <div class="tab-titles">
-                    <p class="tab-links active-link">Skills</p>
-                    <p class="tab-links">Education</p>
-                    <p class="tab-links">Experience</p>
+                    <p class="tab-links active-link" oneclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" oneclick="openTab('experience')">Experience</p>
+                    <p class="tab-links" oneclick="openTab('education')">Education</p>
                 </div>
 
-                <div class="tab-contents">
+                <div class="tab-contents active-tab" id="skills">
                     <ul>
                         <li><span>UI/UX Design</span><br>Designing Web/App Interfaces</li>
                         <li><span>Web Development</span><br>Web App Development</li>
                         <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>(2025-present) Base Camp Coding Academy</span><br>Apprentice</li>
+                        <li><span>(2016-present) Social Security Administration</span><br>Systems Coordinator</li>
+                        <li><span>(2010-2016) Social Security Administration</span><br>TSC Systems Coordinator</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>(1998-2000) Mississippi Valley State University</span><br> BS Industrial Technology</li>
+                        <li><span>(1995-1998) Holmes Community College</span><br>AA Electronics Tehnology</li>
                     </ul>
                 </div>
 
@@ -58,5 +71,21 @@
             </div>
         </div>
     </div>
+<script>
+
+    var tabContents = document.getElementsByClassName('tab-contents');
+    var tabLinks = document.getElementsByClassName('tab-links');
+
+    function openTab(tabName){
+        for (tablink of tabLinks){
+            tablink.classList.remove('active-link');
+        }
+        for (tabcontent of tabContents){
+            tabcontent.classList.remove('active-tab');
+        }
+    }
+
+
+</script>
 </body>
 </html>
