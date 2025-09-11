@@ -150,7 +150,7 @@ The main theme uses:
 
 ## 📞 Contact
 
-- **Email**: contact@shedrickflowers.com
+- **Email**: shedrick@shedrickflowers.com
 - **Phone**: (205) 690-0003
 - **LinkedIn**: [Shedrick Flowers](https://www.linkedin.com/in/shedrickflowers/)
 - **GitHub**: [@sf-bcca](https://github.com/sf-bcca)
