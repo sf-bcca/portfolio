@@ -2,7 +2,7 @@
 
 > A modern, responsive portfolio website showcasing my journey as a software developer and my passion for creating innovative solutions.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://your-portfolio-url.com)
+[![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://sf-bcca.github.io/portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-portfolio-blue.svg)](https://github.com/sf-bcca/portfolio)
 
 ## 📋 Table of Contents
@@ -156,7 +156,7 @@ The main theme uses:
 - **GitHub**: [@sf-bcca](https://github.com/sf-bcca)
 - **Facebook**: [Shedrick Flowers Photography](https://www.facebook.com/shedrickflowersphotography/)
 - **Instagram**: [@shedrickflowers](https://www.instagram.com/shedrickflowers/)
-- **Portfolio**: [Live Demo](https://your-portfolio-url.com)
+- **Portfolio**: [Live Demo](https://sf-bcca.github.io/portfolio/)
 
 ## 🤝 Contributing
 
