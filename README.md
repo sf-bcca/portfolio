@@ -151,8 +151,11 @@ The main theme uses:
 ## 📞 Contact
 
 - **Email**: contact@shedrickflowers.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **Phone**: (205) 690-0003
+- **LinkedIn**: [Shedrick Flowers](https://www.linkedin.com/in/shedrickflowers/)
 - **GitHub**: [@sf-bcca](https://github.com/sf-bcca)
+- **Facebook**: [Shedrick Flowers Photography](https://www.facebook.com/shedrickflowersphotography/)
+- **Instagram**: [@shedrickflowers](https://www.instagram.com/shedrickflowers/)
 - **Portfolio**: [Live Demo](https://your-portfolio-url.com)
 
 ## 🤝 Contributing
